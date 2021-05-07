@@ -1,0 +1,131 @@
+.header-nav {
+  background-color: #000;
+  position: fixed;
+  height: 70px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav {
+  margin-right: 5%;
+}
+/* aの色 */
+a {
+  color: #fff;
+  text-decoration: none;
+}
+/* aのマウスオーバー */
+a:hover {
+  color: #e22c33;
+}
+.first-block {
+  height: 500px;
+  /* background-color: #2b334f; */
+  background-image: url("../images/rodin.jpg");
+  /* background: linear-gradient(#2b334f, #d96d85); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title-container {
+  text-align: center;
+}
+
+button {
+  font-size: 80px;
+  font-family: serif;
+  color: #ffffff;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  margin-top: 70px;
+  border: none; /* 枠線を消す */
+  outline: none; /* クリックしたときに表示される枠線を消す */
+  background: transparent; 背景の灰色を消す
+
+}
+#nameDisplay {
+  font-size: 80px;
+  font-family: serif;
+  color: #ffffff;
+}
+/*   Second block   */
+#second-block {
+  background-color: #ffffff;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  /* FlexBoxで並べる　row（デフォルト、左から右へ並べる） */
+  flex-direction: row;
+  align-items: center;
+}
+/* About me */
+.info-title {
+  font-size: 60px;
+  font-family: serif;
+  /* 箱の外側の余白 */
+  margin-bottom: 20px;
+  color: #444;
+  text-align: center;
+}
+/* 小タイトル */
+.info-text {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #444;
+
+  width: 30%;
+}
+/* コンテンツ */
+.font-small {
+  font-size: 15px;
+}
+/*   Second block End   */
+
+#third-block {
+  height: 500px;
+  background-image: url("../images/summer.jpg");
+}
+.info-title2 {
+  font-size: 60px;
+  font-family: serif;
+  /* 箱の外側の余白 */
+  margin-top: 100px;
+  color: #444;
+  text-align: center;
+}
+.Email {
+  font-size: 30px;
+  font-family: serif;
+  /* 箱の外側の余白 */
+  margin-top: 50px;
+  color: #444;
+  text-align: center;
+}
+.Email-adress {
+  font-size: 20px;
+  font-family: serif;
+  /* 箱の外側の余白 */
+  margin-bottom: 10px;
+  color: #444;
+  text-align: center;
+}
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100px;
+  background-color: #000;
+  font-size: 15px;
+  color: #fff;
+}
