@@ -25,7 +25,7 @@ a:hover {
 .first-block {
   height: 500px;
   /* background-color: #2b334f; */
-  background-image: url("../images/rodin.jpg");
+  background-image: url("./images/rodin.jpg");
   /* background: linear-gradient(#2b334f, #d96d85); */
   display: flex;
   justify-content: center;
@@ -93,7 +93,7 @@ button {
 
 #third-block {
   height: 500px;
-  background-image: url("../images/summer.jpg");
+  background-image: url("./images/summer.jpg");
 }
 .info-title2 {
   font-size: 60px;
